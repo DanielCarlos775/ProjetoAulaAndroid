@@ -17,6 +17,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnConversorMoeda = findViewById(R.id.btnConversorMoeda);
         Button btnConversorTemperatura = findViewById(R.id.btnConversorTemperatura);
         Button btnConsultarCep = findViewById(R.id.btnConsultarCep);
+        Button btnCompras = findViewById(R.id.btnCompras);
 
         btnFrases.setOnClickListener( v -> {
             Intent intent = new Intent(MenuActivity.this, FrasesActivity.class);
@@ -35,6 +36,11 @@ public class MenuActivity extends AppCompatActivity {
 
         btnConsultarCep.setOnClickListener( v -> {
             Intent intent = new Intent(MenuActivity.this, CepActivity.class);
+            startActivity(intent);
+        });
+
+        btnCompras.setOnClickListener( v -> {
+            Intent intent = new Intent(MenuActivity.this, ComprasActivity.class);
             startActivity(intent);
         });
     }

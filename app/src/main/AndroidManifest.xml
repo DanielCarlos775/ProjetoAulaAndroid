@@ -35,6 +35,9 @@
         <activity
             android:name=".CepActivity"
             android:exported="false" />
+        <activity
+            android:name=".ComprasActivity"
+            android:exported="false" />
     </application>
 <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
