@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:hint="Descrição do Item"
-            android:inputType="textCapSentences" />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/etQuantidade"
@@ -37,6 +37,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Adicionar" />
+
+            <Button
+                android:id="@+id/btnAtualizar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Atualizar" />
 
             <Button
                 android:id="@+id/btnRemover"
